@@ -22,6 +22,17 @@ public class Primitives {
 		int intUnderscore = 1_23_456;
 		System.out.println("Underscore notation: " + intUnderscore);
 		
+		char charA = 'A';
+		System.out.println("charA: " + charA);
+		char charInt = 65;
+		System.out.println("charInt: " + charInt);
+		char charUnicode1 = '\u0041';
+		System.out.println("charUnicode1: " + charUnicode1);
+		char charUnicode2 = 0x41;
+		System.out.println("charUnicode2: " + charUnicode2);
+		char charBinary = 0b01000001;
+		System.out.println("charBinary: " + charBinary);
+		
 	}
 
 }
