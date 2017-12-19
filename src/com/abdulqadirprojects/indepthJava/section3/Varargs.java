@@ -7,6 +7,8 @@ public class Varargs {
 		varargsOverload(true, 1, 2, 3); // calls method without varargs since it's possible
 		varargsOverload(true, 1, 2, 3, 4, 5, 6, 7, 8);
 		varargsOverload(true); // calls method with varargs with zero int arguments
+		// since the parameter for varargs is an array, we can pass in an array instead of individual values
+		varargsOverload(true, new int[4]);
 
 	}
 	
