@@ -55,6 +55,6 @@ public class StringClassDemos {
 		}
 		
 		// Static method (includes overloaded methods)
-		System.out.println("\nString.valueOf(1.3): " + String.valueOf(1.3));
+		System.out.println("\nString.valueOf(1.3): " + String.valueOf(1.3)); // returns a String representation of the argument
 	}
 }
